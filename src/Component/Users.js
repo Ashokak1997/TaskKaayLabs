@@ -40,7 +40,7 @@ const Users = () => {
                     </tr>
                 </thead>
                 <tbody>
-                     {data.length > 0 && data?.map((item, index) => {
+                     {data?.length > 0 && data?.map((item, index) => {
                         console.log(item)
                         return (
                             <tr key={index}>
