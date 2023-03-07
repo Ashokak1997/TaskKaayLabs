@@ -26,10 +26,10 @@ const Users = () => {
     return (
         <div className="App mx-4 mt-2">
             <h3>Task</h3>
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" onChange={filterBySearch} placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" />
+            <div className="input-group mb-3">
+                <input type="text" className="form-control" onChange={filterBySearch} placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" />
             </div>
-            <table class="table table-striped">
+            <table className="table table-striped">
                 <thead>
                     <tr>
                         <th scope="col">Name</th>

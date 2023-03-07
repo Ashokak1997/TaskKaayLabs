@@ -26,13 +26,13 @@ function App() {
     <div className='App'>
       <Users />
       <nav aria-label="..." className='d-flex justify-content-end'>
-                <ul class="pagination">
-                    <li class="page-item"><a class="page-link" onClick={() => getData(1)}>1</a></li>
-                    <li class="page-item">
-                        <a class="page-link" onClick={() => getData(2)}>2 <span class="sr-only">(current)</span></a>
+                <ul className="pagination">
+                    <li className="page-item"><a className="page-link" onClick={() => getData(1)}>1</a></li>
+                    <li className="page-item">
+                        <a className="page-link" onClick={() => getData(2)}>2 <span className="sr-only">(current)</span></a>
                     </li>
-                    <li class="page-item"><a class="page-link" onClick={() => getData(3)}>3</a></li>
-                    <li class="page-item"><a class="page-link" onClick={() => getData(4)}>4</a></li>
+                    <li className="page-item"><a className="page-link" onClick={() => getData(3)}>3</a></li>
+                    <li className="page-item"><a className="page-link" onClick={() => getData(4)}>4</a></li>
                 </ul>
             </nav>
     </div>
